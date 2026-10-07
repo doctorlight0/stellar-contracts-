@@ -1,0 +1,10 @@
+#define GLIB_PKG_CONFIG__
+prefix=/usr
+libdir=/usr/lib/x86_64-linux-gnu
+includedir=/usr/include
+
+Name: openssl
+Description: OpenSSL library
+Version: 3.0.10
+Libs: -L${libdir} -lssl -lcrypto
+Cflags: -I${includedir}
